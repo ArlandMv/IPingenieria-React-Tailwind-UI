@@ -21,7 +21,7 @@
 
 @layer base {
   body {
-    @apply font-primary bg-darkblue text-white leading-normal m-0;
+    @apply font-poppins bg-darkblue text-white leading-normal m-0;
   }
   .h3 {
     @apply text-[22px] lg:text-[32px] font-bold;

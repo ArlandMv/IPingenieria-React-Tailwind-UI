@@ -54,9 +54,9 @@ export const navLinks = [
 
 export const heroSection = [
   {
-    title: "Potenciando Tu Futuro Digital",
+    title: "Potenciando Su Futuro Digital",
     tagline:
-      "Servicios Innovadores de TI Adaptados a las Necesidades de tu Negocio",
+      "Servicios Innovadores de TI Adaptados a las Necesidades de su Negocio",
     callToAction: "Explora Nuestros Servicios",
     image: city,
   },
@@ -99,7 +99,7 @@ export const servicesSection = [
       {
         title: "Soporte Técnico Integral",
         description:
-          "Ofrecemos un servicio completo de soporte técnico para resolver problemas informáticos, desde problemas de hardware hasta software. Nuestro equipo de expertos está listo para mantener tu infraestructura tecnológica funcionando con altos índices de continuidad operacional.",
+          "Ofrecemos un servicio completo de soporte técnico para resolver problemas informáticos, desde problemas de hardware hasta software. Nuestro equipo de expertos está listo para mantener su infraestructura tecnológica funcionando con altos índices de continuidad operacional.",
       },
       {
         title: "Monitoreo y Control IoT",
@@ -137,8 +137,8 @@ export const featuresSection = [
     title: "100% Seguro",
     keywords: "Seguridad, Cumplimiento",
     content: [
-      "Tu información es nuestra principal prioridad.",
-      "Nuestras medidas de seguridad integrales y estrictos estándares de cumplimiento garantizan que tu información y transacciones estén seguras y completamente cumplen con las regulaciones de la industria.",
+      "Su información es nuestra principal prioridad.",
+      "Nuestras medidas de seguridad integrales y estrictos estándares de cumplimiento garantizan que su información y transacciones estén seguras y cumplan completamente con las regulaciones de la industria.",
     ],
   },
   {
@@ -148,7 +148,7 @@ export const featuresSection = [
     keywords: "Escalabilidad, Eficiencia",
     content: [
       "Experimenta una escalabilidad eficiente con nuestros servicios.",
-      "Proporcionamos soluciones que crecen de manera eficiente con las demandas de tu negocio, asegurando un rendimiento y utilización de recursos óptimos.",
+      "Proporcionamos soluciones que crecen de manera eficiente con las demandas de su negocio, asegurando un rendimiento y utilización de recursos óptimos.",
     ],
   },
 ];
@@ -218,8 +218,9 @@ export const footerSection = [
     title: "Enlaces de Navegación",
     links: [
       { text: "Inicio", url: "/" },
+      { text: "Caracteristicas", url: "/features" },
       { text: "Servicios", url: "/servicios" },
-      { text: "Acerca de Nosotros", url: "/acerca-de-nosotros" },
+      //{ text: "Acerca de Nosotros", url: "/acerca-de-nosotros" },
       { text: "Contacto", url: "/contacto" },
     ],
   },

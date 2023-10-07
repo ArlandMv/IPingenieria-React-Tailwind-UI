@@ -12,6 +12,7 @@ import {
 // aos init
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Contact from "./components/Contact";
 
 const App = () => {
   //function App() {
@@ -25,7 +26,7 @@ const App = () => {
   });
 
   return (
-    <div className="bg-primary w-full overflow-hidden ">
+    <div className="w-full overflow-hidden ">
       {/*<Header setNavMobile={setNavMobile} />*/}
       <Hero />
       {/*<div
@@ -36,6 +37,7 @@ const App = () => {
       </div>*/}
       <Features />
       <Services />
+      <Contact />
       <Footer />
     </div>
   );

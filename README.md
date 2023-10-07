@@ -30,6 +30,9 @@ Este proyecto, IT-react-Tailwind-DiseñoUI, tiene como objetivo principal demost
 - **TailwindCSS:** Para un enfoque de estilo limpio y mantenible.
 - **Git:** Para control de versiones, fomentando la colaboración y la integridad del código.
 - **DevOps:** Alojado en Netlify para una implementación rápida y confiable.
+- **Jamstack:** https://devrolabs.com/ services(Email forwarding, email checking).
+
+  @ curl -X GET https://mailinput.com/api/get-apikey/ip.ingenieria.0408@gmail.com \*\*/
 
 **Habilidades Enfocadas(Skills):**
 

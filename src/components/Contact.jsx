@@ -20,7 +20,7 @@ const Contact = () => {
     formDataForSubmitCo.append("phone", phone);
     formDataForSubmitCo.append("message", message);
 
-    fetch("https://formsubmit.co/ajax/ip.ingenieria.0408@gmail.com", {
+    fetch("https://formsubmit.co/ajax/53cd68840597b9dc515fc4ad1e7493ad", {
       method: "POST",
       body: formDataForSubmitCo,
     })

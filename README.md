@@ -36,7 +36,7 @@ Este proyecto, IT-react-Tailwind-DiseñoUI, tiene como objetivo principal demost
 
 **Habilidades Enfocadas(Skills):**
 
-- **Fundamentals of React:** Conditional rendering.
+- **Fundamentals of React:** Conditional rendering, form handling.
 - **Hooks:** UseState(hoveredService), UseEffect.
 - **Coding Best Practices:** Imports limpios usando index.js para poder importar todos los elementos de una carpeta en un import.
 
@@ -44,7 +44,8 @@ Este proyecto, IT-react-Tailwind-DiseñoUI, tiene como objetivo principal demost
 
 A medida que el proyecto evoluciona, se están considerando mejoras en la funcionalidad e incorporación de características adicionales. Mantente informado para actualizaciones mientras exploramos posibilidades para la gestión de contenido y más.
 
-- Form Handling
+- Add [Shapes](https://www.shapedivider.app/)
+- Subtle, yet Beautiful Scroll Animations
 - State managers: Redux.
 - Routing
 - Higher Order Components (HOC)

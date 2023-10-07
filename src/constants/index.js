@@ -8,7 +8,7 @@ import {
   city,
 } from "../assets";
 
-export const companyName = "IT Ingenieria";
+export const companyName = "IP Ingeniería";
 
 export const navData = [
   {

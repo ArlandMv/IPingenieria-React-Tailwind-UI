@@ -1,13 +1,21 @@
 import React, { useState } from "react";
 
 const Contact = () => {
-  // State to store form data
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
     phone: "",
     message: "",
   });
+
+  const resetForm = () => {
+    setFormData({
+      fullName: "",
+      email: "",
+      phone: "",
+      message: "",
+    });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -27,7 +35,8 @@ const Contact = () => {
       .then((response) => response.json())
       .then((data) => {
         console.log("Form submitted to formsubmit.co:", data);
-        // logic after successful submission
+        resetForm();
+        alert("Formulario Enviado!");
       })
       .catch((error) => {
         console.error("Error submitting form to formsubmit.co:", error);

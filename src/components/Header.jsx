@@ -8,6 +8,7 @@ import Nav from "./Nav";
 //import { FaMicrochip, FaBroadcastTower } from "react-icons/fa";
 //import { MdMemory, MdCast } from "react-icons/md";
 import { PiBroadcastBold } from "react-icons/pi";
+import AccountBtns from "./AccountBtns";
 
 const Header = ({ setNavMobile }) => {
   return (

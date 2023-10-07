@@ -18,7 +18,7 @@ const NavMobile = ({ setNavMobile }) => {
       <ul className="text-xl flex flex-col gap-y-8">
         {navData.map((item, idex) => {
           return (
-            <li key={index}>
+            <li>
               {/*key={index}*/}
               <a href={item.href}>{item.name}</a>
             </li>

@@ -23,8 +23,8 @@ const Services = () => {
           >
             <h3
               data-aos="fade"
-              data-aos-delay={getAosDelay}
-              className="text-xl font-bold text-blue-600 text-white mb-4"
+              data-aos-delay={300}
+              className="text-xl font-bold text-white mb-4"
             >
               {category.category}
             </h3>
@@ -34,7 +34,7 @@ const Services = () => {
                 <div
                   key={serviceIndex}
                   data-aos={`fade-${serviceIndex % 2 === 0 ? "right" : "left"}`}
-                  data-aos-delay={getAosDelay}
+                  data-aos-delay={300}
                   className="bg-white p-6 rounded-lg shadow-md flex flex-col relative"
                   onMouseEnter={() => setHoveredService(service.title)}
                   onMouseLeave={() => setHoveredService(null)}

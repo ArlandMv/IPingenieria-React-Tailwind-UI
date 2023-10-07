@@ -27,14 +27,14 @@ const App = () => {
 
   return (
     <div className="w-full overflow-hidden ">
-      {/*<Header setNavMobile={setNavMobile} />*/}
+      <Header setNavMobile={setNavMobile} />
       <Hero />
-      {/*<div
+      <div
         className={`${navMobile ? "right-0" : "right-full"} 
 			fixed top-0 z-10 h-full transition-all duration-200`}
       >
         <NavMobile setNavMobile={setNavMobile} />
-      </div>*/}
+      </div>
       <Features />
       <Services />
       <Contact />

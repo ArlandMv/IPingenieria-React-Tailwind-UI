@@ -3,7 +3,7 @@ import { featuresSection } from "../constants/index";
 
 const Features = () => {
   return (
-    <section className="bg-white py-12 px-5 lg:h-auto">
+    <section id="features" className="bg-white py-12 px-5 lg:h-auto">
       <div className="container mx-auto my-10">
         <h2 className="text-darkblue text-3xl font-bold text-center mb-10">
           Nuestras Características

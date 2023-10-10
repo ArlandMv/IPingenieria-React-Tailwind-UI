@@ -4,7 +4,7 @@ import { heroSection, companyName } from "../constants/index";
 const Hero = () => {
   const heroData = heroSection[0];
   return (
-    <section className="lg:h-screen">
+    <section id="home" className="lg:h-screen">
       <div className="container md:px-10  mx-auto">
         <div className="flex flex-col items-center lg:flex-row">
           {/* HERO text */}

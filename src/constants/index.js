@@ -13,23 +13,19 @@ export const companyName = "IP Ingeniería";
 export const navData = [
   {
     name: "Inicio",
-    href: "#",
+    href: "#home",
   },
   {
     name: "Características",
-    href: "#",
+    href: "#features",
   },
   {
-    name: "Servicios",
-    href: "#",
+    name: "Servicio",
+    href: "#services",
   },
-  /*{
-    name: 'Acerca de Nosotros',
-    href: '#',
-  },*/
   {
     name: "Contacto",
-    href: "#",
+    href: "#contact",
   },
 ];
 
@@ -217,11 +213,11 @@ export const footerSection = [
   {
     title: "Enlaces de Navegación",
     links: [
-      { text: "Inicio", url: "/" },
-      { text: "Caracteristicas", url: "/features" },
-      { text: "Servicios", url: "/servicios" },
-      //{ text: "Acerca de Nosotros", url: "/acerca-de-nosotros" },
-      { text: "Contacto", url: "/contacto" },
+      { text: "Inicio", url: "#home" },
+      { text: "Caracteristicas", url: "/#features" },
+      { text: "Servicios", url: "#services" },
+      //{ text: "Acerca de Nosotros", ...
+      { text: "Contacto", url: "/#contact" },
     ],
   },
   {

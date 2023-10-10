@@ -1,5 +1,5 @@
 import React from "react";
-import { navData } from "../data";
+import { navData } from "../constants/index";
 
 const Nav = () => {
   return (
@@ -9,7 +9,7 @@ const Nav = () => {
           return (
             <li
               className="border-b-2 border-transparent hover:border-blue transition-all duration-300"
-              key={item}
+              key={item.name}
             >
               <a href={item.href}>{item.name}</a>
             </li>

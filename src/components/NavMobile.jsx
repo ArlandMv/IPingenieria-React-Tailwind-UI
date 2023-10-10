@@ -3,7 +3,7 @@ import React from "react";
 import { CgClose } from "react-icons/cg";
 
 //data
-import { navData } from "../data";
+import { navData } from "../constants/index";
 
 const NavMobile = ({ setNavMobile }) => {
   return (
@@ -16,10 +16,9 @@ const NavMobile = ({ setNavMobile }) => {
       </div>
       {/* menu list */}
       <ul className="text-xl flex flex-col gap-y-8">
-        {navData.map((item, idex) => {
+        {navData.map((item, index) => {
           return (
-            <li>
-              {/*key={index}*/}
+            <li key={item.name}>
               <a href={item.href}>{item.name}</a>
             </li>
           );

@@ -12,8 +12,8 @@ const Footer = () => (
 
           {section.links && (
             <ul className="flex justify-center">
-              {section.links.map((link, linkIndex) => (
-                <li key={linkIndex} className="mx-2">
+              {section.links.map((link, index) => (
+                <li key={link.text} className="mx-2">
                   <a href={link.url}>{link.text}</a>
                 </li>
               ))}

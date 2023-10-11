@@ -3,6 +3,7 @@ import { IoIosArrowDroprightCircle } from "react-icons/io";
 import { heroSection, companyName } from "../constants/index";
 const Hero = () => {
   const heroData = heroSection[0];
+
   return (
     <section id="home" className="lg:h-screen">
       <div className="container md:px-10  mx-auto">
@@ -24,14 +25,15 @@ const Hero = () => {
               {heroData.tagline}
             </p>
             <div className="flex flex-row justify-end items-end">
-              <button
+              <a
                 data-aos="fade-down"
                 data-aos-delay="700"
                 className="pl-6 text-sm btn gap-x-6 m-7 lg:h-16 lg:text-base"
+                href="/#services"
               >
                 {heroData.callToAction}
                 <IoIosArrowDroprightCircle className="text-2xl lg:text-3xl" />
-              </button>
+              </a>
             </div>
           </div>
           {/* HERO img */}

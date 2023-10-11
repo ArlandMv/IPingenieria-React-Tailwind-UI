@@ -18,7 +18,7 @@ const Header = ({ setNavMobile }) => {
         <div className="flex items-center">
           <PiBroadcastBold className="text-white text-2xl lg:text-4xl mr-2" />
           <span className="text-white text-xl lg:text-2xl font-bold">
-            IT Ingeniería
+            IP Ingeniería
           </span>
         </div>
         {/* nav btns */}

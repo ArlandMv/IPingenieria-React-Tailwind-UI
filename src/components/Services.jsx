@@ -49,7 +49,7 @@ const Services = () => {
 
                   {hoveredService !== service.title && (
                     <button className="pl-6 text-sm btn gap-x-3 lg:h-16 lg:text-base mt-auto ml-auto w-auto hover:hidden">
-                      Learn More{" "}
+                      Detalles{" "}
                       <IoIosArrowDroprightCircle className="text-xl lg:text-2xl " />
                     </button>
                   )}

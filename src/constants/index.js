@@ -65,12 +65,12 @@ export const servicesSection = [
       {
         title: "Diseño, Instalación y Mantenimiento de Redes",
         description:
-          "Contamos con un equipo con amplia experiencia en el diseño, instalación y mantenimiento proactivo de redes para garantizar la disponibilidad y el rendimiento óptimo. Especialistas en plataformas como ARUBA, Mikrotik o CISCO. Incluimos redes extendidas, enlaces de media y larga distancia con soluciones inalámbricas y con fibras ópticas.",
+          "Contamos con un equipo de amplia experiencia en el diseño, instalación y mantenimiento proactivo de redes para garantizar la más alta disponibilidad y el máximo rendimiento, ajustados siempre a su presupuesto. Somos especialistas en plataformas como ARUBA, Mikrotik y CISCO.  Diseñamos y construimos redes extendidas, enlaces de media y larga distancia con soluciones inalámbricas y fibras ópticas.",
       },
       {
         title: "Virtualización y Cloud Computing",
         description:
-          "Transforma su infraestructura de TI con la virtualización y procesamiento en la nube. Le ayudamos a migrar a soluciones en la nube para mejorar la escalabilidad y eficiencia de sus sistemas.",
+          "Transformamos su infraestructura de TI sacando máximo provecho a las propuestas de  virtualización y procesamiento en la nube disponibles en el mercado. Le ayudamos a migrar a soluciones en la nube para mejorar la escalabilidad y alcance de sus sistemas.",
       },
     ],
   },
@@ -85,7 +85,7 @@ export const servicesSection = [
       {
         title: "Recuperación de Datos",
         description:
-          "¿Pérdida de datos importantes? Ofrecemos servicios de recuperación de datos para recuperar información valiosa de discos duros dañados, unidades USB y otros dispositivos de almacenamiento.",
+          "¿Pérdida de datos importantes? Ofrecemos servicios de recuperación de datos para rescatar información valiosa de discos duros dañados, unidades USB y otros dispositivos de almacenamiento.",
       },
     ],
   },
@@ -100,7 +100,7 @@ export const servicesSection = [
       {
         title: "Monitoreo y Control IoT",
         description:
-          "Monitoreo y control de infinidad de variables de operación en su proceso de producción de bienes o servicios. La tecnología IoT a la altura de sus requerimientos. La captura, el transporte y el despliegue gráfico y la posibilidad de ajustar el valor de la variable a controlar, a su medida.",
+          "Monitoreo y control de infinidad de variables de operación en su proceso de producción de bienes o servicios. La tecnología IoT a la altura de sus requerimientos. La captura, el transporte, el despliegue gráfico y la posibilidad de ajustar el valor de la variable a controlar, a su medida.",
       },
       {
         title: "Desarrollo de Software a Medida",
@@ -123,7 +123,7 @@ export const featuresSection = [
     title: "Calidad",
     keywords: "Rendimiento, Calidad",
     content: [
-      "Nuestros servicios están diseñados y ejecutados con un rendimiento y calidad excepcionales.",
+      "Nuestros servicios cubren la más amplia gama de requerimientos en el área de TI para apoyar a nuestros clientes en todos sus procesos.",
       "Nos adherimos a las mejores prácticas, garantizando confiabilidad y excelencia en cada aspecto de sus soluciones de TI.",
     ],
   },
@@ -143,8 +143,8 @@ export const featuresSection = [
     title: "Escalabilidad",
     keywords: "Escalabilidad, Eficiencia",
     content: [
-      "Experimenta una escalabilidad eficiente con nuestros servicios.",
-      "Proporcionamos soluciones que crecen de manera eficiente con las demandas de su negocio, asegurando un rendimiento y utilización de recursos óptimos.",
+      "Todos nuestros servicios los planeamos con el futuro en mente, para que no haya limites en su capacidad de crecimiento.",
+      "Proveemos soluciones que crecen con las demandas de su negocio, asegurando un óptimo rendimiento y utilización de recursos.",
     ],
   },
 ];

@@ -12,7 +12,7 @@ import AccountBtns from "./AccountBtns";
 
 const Header = ({ setNavMobile }) => {
   return (
-    <header className="py-[30px] md:px-14 lg:pt-[60px]">
+    <header className="fixed top-0 left-0 right-0 py-4 border-1 rounded-md md:px-14 lg:pt-8 bg-gray-800 text-white z-10 ">
       <div className="container flex items-center justify-between mx-auto">
         {/* logo */}
         <div className="flex items-center">

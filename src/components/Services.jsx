@@ -10,7 +10,7 @@ const Services = () => {
   const getAosDelay = () => setAnimationCounter((prev) => prev + 1) * 300;
 
   return (
-    <section id="services" className="">
+    <section id="services" className="pt-20 md:pt-25 lg:pt-30 ">
       <div className="container py-12 mx-auto">
         <h2 className="text-3xl font-bold text-center mb-10">
           Nuestros Servicios

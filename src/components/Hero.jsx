@@ -5,7 +5,7 @@ const Hero = () => {
   const heroData = heroSection[0];
 
   return (
-    <section id="home" className="lg:h-screen">
+    <section id="home" className="pt-20 md:pt-22 lg:pt-24 lg:h-screen">
       <div className="container md:px-10  mx-auto">
         <div className="flex flex-col items-center lg:flex-row">
           {/* HERO text */}
@@ -41,9 +41,10 @@ const Hero = () => {
             <img
               src={heroData.image}
               alt="IT services image"
-              data-aos="fade"
+              data-aos="fade-up"
+              data-aos-delay="700"
               style={{ opacity: 0.6 }} // Set the desired opacity
-              className="w-full rounded-[40px] rounded-lg py-5 object-cover"
+              className="w-full rounded-3xl  py-5 object-cover"
             />
           </div>
         </div>

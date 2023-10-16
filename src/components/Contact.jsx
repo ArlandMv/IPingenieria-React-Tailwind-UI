@@ -54,9 +54,9 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
-      <div className="container mx-auto py-12">
-        <h2 className="text-3xl font-bold text-center mb-8">Contáctanos</h2>
+    <section id="contact" className="pt-5 md:pt-10 lg:pt-15">
+      <div className="container mx-auto py-12" >
+        <h2 className="pt-3 text-3xl font-bold text-center mb-8">Contáctanos</h2>
         <form
           onSubmit={handleSubmit}
           className="max-w-lg mx-auto"
@@ -125,10 +125,10 @@ const Contact = () => {
             </div>
 
             {/* Message */}
-            <div className="mb-4">
+            <div className="mb-2">
               <label
                 htmlFor="message"
-                className="block text-sm font-medium input"
+                className="block text-sm font-medium text-white input"
               >
                 Mensaje
               </label>
